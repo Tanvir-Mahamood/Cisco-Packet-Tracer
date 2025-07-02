@@ -1,4 +1,4 @@
-# Cisco Packet Tracer Computer Network Lab
+# Cisco Packet Tracer (Computer Network Lab)
 This repository contains .pkt simulation files created using Cisco Packet Tracer for various computer network lab exercises. It is intended to support students and enthusiasts who want to practice and explore the fundamentals of computer networking through simulation.
 
 ## 📚 Basic Definitions
@@ -36,7 +36,7 @@ Download the appropriate version for your operating system (Windows/Linux/macOS)
   - Install using the terminal (sudo dpkg -i file_name.deb) or extract and run the binary.
 
 
-# <p align='center'> Lab 01 (Building a Simple Network) </p>
+# <p align='center'> [Lab 01](/Lab01/) (Building a Simple Network) </p>
 ## Topology
 ![Topology](Lab01/topology.jpg)
 
@@ -47,9 +47,11 @@ Download the appropriate version for your operating system (Windows/Linux/macOS)
 | PC1    | NIC       | 192.168.1.11 | 255.255.255.0 |
 
 ## Objectives 
-- Part 1: Set Up the Network Topology (Ethernet only) 
-- Part 2: Configure PC Hosts 
-- Part 3: Configure and Verify Basic Switch Settings 
+- Part 1: Initializing and Reloading Switch.
+- Part 2: Set Up the Network Topology (Ethernet only) 
+- Part 3: Configure PC Hosts 
+- Part 4: Configure and Verify Basic Switch Settings 
+- Part 5: Login and Logout Switch
 
 ## Required Resources 
 - 2 Switches (Cisco 2960 with Cisco IOS Release 15.0(2) lanbasek9 image or comparable) 
@@ -69,7 +71,7 @@ for the procedure to initialize and reload a switch.
 
 ## Procedures:
 
-### Initializing and Reloading Switch
+### Part1: Initializing and Reloading Switch
 1. Attach a **Switch** with a PC0 using console cable.
 2. Power on the devices.
 3. Click on the PC0 > Desktop tab > terminal.
@@ -140,7 +142,7 @@ for the procedure to initialize and reload a switch.
 > [!NOTE]
 > The Ethernet ports on the 2960 switches are autosensing and will accept either a straight through or a cross-over cable for all connections. If the switches used in the topology are other than the 2960  model, then it is likely that a cross-over cable will be needed to connect the two switches. 
 
-### Set Up the Network Topology (Ethernet only) 
+### Part2; Set Up the Network Topology (Ethernet only) 
 1. Power on the devices. 
    Power on all devices in the topology. The switches do not have a power switch; they will power on as soon as you plug in the power cord. 
 2. Connect the two switches. 
@@ -154,8 +156,10 @@ for the procedure to initialize and reload a switch.
 4. Visually inspect network connections. 
    After cabling the network devices, take a moment to carefully verify the connections to minimize the time 
    required to troubleshoot network connectivity issues later.
+### Part3: Configure PC Hosts 
+1. Set the IP addresss to each host as instructed.
 
-### Configure and Verify Basic Switch Settings 
+### Part4: Configure and Verify Basic Switch Settings 
 1. Console into the switch. 
    Using Tera Term, establish a console connection to the switch from PC-A. 
 
@@ -169,15 +173,16 @@ for the procedure to initialize and reload a switch.
    The prompt changed from Switch> to Switch# which indicates privileged EXEC mode. 
 
 3. Enter configuration mode. 
-  Use the configuration terminal command to enter configuration mode. 
-  ```bash
-  Switch# configure terminal 
-  ```
+   Use the configuration terminal command to enter configuration mode. 
+   ```bash
+   Switch# configure terminal 
+   ```
 
-  Enter configuration commands, one per line. End with CNTL/Z. 
-  ```bash
-  Switch(config)# 
-  The prompt changed to reflect global configuration mode. 
+   Enter configuration commands, one per line. End with CNTL/Z. 
+   ```bash
+   Switch(config)# 
+   The prompt changed to reflect global configuration mode. 
+   ```
 
 4. Give the switch a name. 
    Use the hostname command to change the switch name to S1. 
@@ -230,10 +235,10 @@ for the procedure to initialize and reload a switch.
    ```
 
 10. Display the IOS version and other useful switch information. 
-   Use the show version command to display the IOS version that the switch is running, along with other useful information. Again, you will need to use the spacebar to advance through the displayed information. 
-   ```bash
-   S1# show version 
-   ```
+    Use the show version command to display the IOS version that the switch is running, along with other useful information. Again, you will  need to use the spacebar to advance through the displayed information. 
+    ```bash
+    S1# show version 
+    ```
   
 11. Display the status of the connected interfaces on the switch. 
     To check the status of the connected interfaces, use the show ip interface brief command. Press the spacebar to advance to the end of the list. 
@@ -263,8 +268,9 @@ Password:
 7. Then, to enter privileged EXEC mode:
 ```pgsql
 Switch> enable
-Password: class
+Password: 
 ```
+8. Enter `class` as password.
 
 📝 Important Notes
 ✅ You configured:
