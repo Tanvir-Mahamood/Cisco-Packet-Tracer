@@ -25,7 +25,7 @@ Example: You use a console cable to connect your PC to a switch to set IP addres
 - **Straight-Through Cable (Ethernet Cable)** <br>
 Purpose: Connect different types of devices.
 Connection Examples:
-   ```mermaid
+   ```
    PC ↔ Switch
    Router ↔ Switch
    PC ↔ Hub
@@ -38,7 +38,7 @@ Connection Examples:
 3. Crossover Cable
 Purpose: Connect similar types of devices directly, without a switch in between.
 Connection Examples:
-   ```mermaid
+   ```
    PC ↔ PC
    Switch ↔ Switch
    Router ↔ Router
