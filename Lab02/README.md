@@ -59,7 +59,7 @@ addresses, and passwords. <br>
 In this step, you will configure basic switch settings, such as hostname, and configure an IP address for the SVI. Assigning an IP address on the switch is only the first step. As the network administrator, you must specify how the switch will be managed. Telnet and SSH are two of the most common management methods. However, Telnet is a very insecure protocol. All information flowing between the two devices is sent in 
 plaintext. Passwords and other sensitive information can be easily viewed if captured by a packet sniffer. 
 
-   - [Read only <Part4: Configure and Verify Basic Switch Settings from step 1 to step 7> and return here. ](/Lab01/README.md#Part4:-Configure-and-Verify-Basic-Switch-Settings)
+   - [Read only <Part4: Configure and Verify Basic Switch Settings from step 1 to step 7> and return here. ](/Lab01/README.md#part4-configure-and-verify-basic-switch-settings)
    - Enter global configuration mode to set the SVI IP address to allow remote switch management.
    ```bash
    S1# config t 

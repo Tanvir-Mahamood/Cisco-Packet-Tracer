@@ -14,6 +14,40 @@ Before diving into the simulations, here are a few essential terms in computer n
 
 - **Packet Tracer:** Cisco Packet Tracer is a powerful simulation tool developed by Cisco that allows users to create virtual network topologies, configure devices, and simulate network behavior without physical hardware.
 
+🔌 Cables:
+- **Console Cable (Roll-over Cable)** <br>
+Purpose: Used to configure or manage a network device like a switch or router via Command-Line Interface (CLI).
+Connection: From the PC's serial/USB port to the console port of a router or switch.
+Usage: Not for data transfer between network devices, only for initial setup, maintenance, or troubleshooting.
+Typical Tools: Terminal software like PuTTY, Tera Term, or Cisco Packet Tracer.
+Example: You use a console cable to connect your PC to a switch to set IP address, enable interfaces, etc.
+
+- **Straight-Through Cable (Ethernet Cable)** <br>
+Purpose: Connect different types of devices.
+Connection Examples:
+   ```mermaid
+   PC ↔ Switch
+   Router ↔ Switch
+   PC ↔ Hub
+   ```
+
+   Wire Configuration: Pins on both ends have the same color order (T568A–T568A or T568B–T568B).
+   Usage: Most commonly used for connecting end devices to the network infrastructure.
+   Example: Connecting your laptop to a LAN port on a switch.
+
+3. Crossover Cable
+Purpose: Connect similar types of devices directly, without a switch in between.
+Connection Examples:
+   ```mermaid
+   PC ↔ PC
+   Switch ↔ Switch
+   Router ↔ Router
+   ```
+
+   Wire Configuration: One end is T568A, the other end is T568B.
+   Usage: Allows data to cross over transmit and receive lines directly.
+   Example: Two computers communicating directly with each other for file sharing without a switch.
+
 ## 🛠️ Installation Guide: Cisco Packet Tracer
 To run the .pkt files provided in this repository, you need to have Cisco Packet Tracer installed on your system.
 
