@@ -61,34 +61,41 @@ plaintext. Passwords and other sensitive information can be easily viewed if cap
 
    - [Read only <Part4: Configure and Verify Basic Switch Settings from step 1 to step 7> and return here. ](/Lab01/README.md#part4-configure-and-verify-basic-switch-settings)
    - Enter global configuration mode to set the SVI IP address to allow remote switch management.
-   ```bash
-   S1# config t 
-   S1#(config)# interface vlan 1 
-   S1(config-if)# ip address 192.168.1.2 255.255.255.0 
-   S1(config-if)# no shut 
-   S1(config-if)# exit 
-   S1(config)# 
-   ```
+     ```bash
+     S1# config t 
+     S1#(config)# interface vlan 1 
+     S1(config-if)# ip address 192.168.1.2 255.255.255.0 
+     S1(config-if)# no shut 
+     S1(config-if)# exit 
+     S1(config)# 
+     ```
 
    - Configure the VTY line for the switch to allow Telnet access. If you do not configure a VTY password, you will not be able to telnet to the switch. 
-   ```bash
-   S1(config)# line vty 0 4 
-   S1(config-line)# password cisco 
-   S1(config-line)# login 
-   S1(config-line)# end 
-   S1# 
-   *Mar  1 00:06:11.590: %SYS-5-CONFIG_I: Configured from console by console
-   ```
+     ```bash
+     S1(config)# line vty 0 4 
+     S1(config-line)# password ciscov 
+     S1(config-line)# login 
+     S1(config-line)# end 
+     S1# 
+     *Mar  1 00:06:11.590: %SYS-5-CONFIG_I: Configured from console by console
+     ```
+
+   - **To encrypt password (optional)** <br>
+     ```bash
+     S1> enable
+     S1# configure terminal
+     S1(config)# service password-encryption
+     ```
 
    - **Save the configuration.** <br>
    Use the copy command to save the running configuration to the startup file on non-volatile random access memory (NVRAM). 
-   ```bash
-   S1# copy running-config startup-config 
-   Destination filename [startup-config]? [Enter] 
-   Building configuration... 
-   [OK] 
-   S1#
-   ```
+     ```bash
+     S1# copy running-config startup-config 
+     Destination filename [startup-config]? [Enter] 
+     Building configuration... 
+     [OK] 
+     S1#
+     ```
 
    - **Configure an IP address on PC-0** <br>
    Now, set IP address for the pc: `192.168.1.10`
@@ -145,7 +152,7 @@ commands, is sent across the session in plaintext. In subsequent labs, you will 
    C:\Users\NetAcad> telnet 192.168.1.2 
    ```
 
-- After entering the cisco password, you will be at the user EXEC mode prompt. Type enable at the prompt. Enter the class password to enter privileged EXEC mode and issue a show run command. 
+- After entering the `ciscov` password, you will be at the user EXEC mode prompt. Type enable at the prompt. Enter the class password to enter privileged EXEC mode and issue a show run command. 
 
 4. **Save the configuration file.** <br> 
 - From your Telnet session, issue the copy run start command at the prompt. 
