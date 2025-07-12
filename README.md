@@ -76,6 +76,7 @@ Download the appropriate version for your operating system (Windows/Linux/macOS)
 | [Beggining](/Initialize%20and%20Reload/) | Initializing & Reloading a Router and Switch | [Click here](/Initialize%20and%20Reload/README.md)
 | [Lab 01](/Lab01/) | Building a Simple Network | [Click Here](/Lab01/README.md) |
 | [Lab 02](/Lab02/) | Configuring a Switch Management Address  | [Click Here](/Lab02/README.md) |
+| [Lab 03](/Lab03/) | Building a Switch and Router Network | [Click Here](/Lab03/README.md) |
 
 
 ## 📝 License
