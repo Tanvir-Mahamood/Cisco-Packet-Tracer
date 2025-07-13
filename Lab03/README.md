@@ -97,7 +97,7 @@ necessary to use an Ethernet crossover cable.
 
 ### Part 2: Configure Devices and Verify Connectivity 
 1. **Configure the switch** <br> 
-   [Click here to see the commands. Follow Part 4 except setp-12](/Lab01/README.md/Part4:-Configure-and-Verify-Basic-Switch-Settings)
+   [Click here to see the commands. Follow Part 4 except setp-12](/Lab01/README.md#Part4-Configure-and-Verify-Basic-Switch-Settings)
 2. **Assign static IP information to the PC interfaces.** <br>
    Configure the IP address, subnet mask, and default gateway to PC-0 & PC-1. <br>
 
