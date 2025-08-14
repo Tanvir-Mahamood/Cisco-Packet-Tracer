@@ -76,7 +76,10 @@ Download the appropriate version for your operating system (Windows/Linux/macOS)
 | [Beggining](/Initialize%20and%20Reload/) | Initializing & Reloading a Router and Switch | [Click here](/Initialize%20and%20Reload/README.md)
 | [Lab 01](/Lab01/) | Building a Simple Network | [Click Here](/Lab01/README.md) |
 | [Lab 02](/Lab02/) | Configuring a Switch Management Address  | [Click Here](/Lab02/README.md) |
-| [Lab 03](/Lab03/) | Building a Switch and Router Network | [Click Here](/Lab03/README.md) |
+| [Lab 03](/Lab03/) | Building a Switch and Router Network <br> [6.4.1.3 Packet Tracer - Configure Initial Router Settings.pka](/Activity%20Files/6.4.1.3%20Packet%20Tracer%20-%20Configure%20Initial%20Router%20Settings.pka) <br> [6.4.3.3 Packet Tracer - Connect a Router to a LAN.pka](/Activity%20Files/6.4.3.3%20Packet%20Tracer%20-%20Connect%20a%20Router%20to%20a%20LAN.pka) | [Click Here for first file](/Lab03/README.md) |
+| Lab 04 | [8.1.4.7 Packet Tracer - Subnetting Scenario.pka](/Activity%20Files/8.1.4.7%20Packet%20Tracer%20-%20Subnetting%20Scenario.pka) <br> [8.1.4.7 Packet Tracer - Subnetting Scenario 1.pka](/Activity%20Files/8.1.4.7%20Packet%20Tracer%20-%20Subnetting%20Scenario%201.pka) <br> [8.2.1.4 Packet Tracer - Designing and Implementing a VLSM Addressing Scheme.pka](/Activity%20Files/8.2.1.4%20Packet%20Tracer%20-%20Designing%20and%20Implementing%20a%20VLSM%20Addressing%20Scheme.pka) | |
+| Lab 05 | [Configuring Secure Passwords and SSH.pka](/Activity%20Files/Configuring%20Secure%20Passwords%20and%20SSH.pka) <br> [DNS and DHCP.pka](/Activity%20Files/DNS%20and%20DHCP.pka) <br> [FTP.pka](/Activity%20Files/FTP.pka) <br> [Web and Email.pka](/Activity%20Files/Web%20and%20Email.pka) | |
+| [Lab 06](/Lab07/) | Accessing Network Devices with SSH <br> Securing Network Devices | [Click Here](#) <br> [Click Here](#) |
 
 
 ## 📝 License
