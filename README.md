@@ -81,6 +81,7 @@ Download the appropriate version for your operating system (Windows/Linux/macOS)
 | Lab 05 | [Configuring Secure Passwords and SSH.pka](/Activity%20Files/Configuring%20Secure%20Passwords%20and%20SSH.pka) <br> [DNS and DHCP.pka](/Activity%20Files/DNS%20and%20DHCP.pka) <br> [FTP.pka](/Activity%20Files/FTP.pka) <br> [Web and Email.pka](/Activity%20Files/Web%20and%20Email.pka) | |
 | [Lab 06](/Lab07/) | Accessing Network Devices with SSH <br> Securing Network Devices | [Click Here](/Lab07/README.md) |
 | [Lab 07](/Lab08/) | Configuring A Basic Network | [Click Here](/Lab08/README.md) |
+| Lab 08 | [Configuring Floating Static Routes](/Activity%20Files/2.2.5.5%20Packet%20Tracer%20-%20Configuring%20Floating%20Static%20Routes.pka) <br> [Configuring RIPv2](/Activity%20Files/3.2.1.8%20Packet%20Tracer%20-%20Configuring%20RIPv2.pka) | |
 
 
 ## 📝 License
