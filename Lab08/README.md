@@ -1,4 +1,4 @@
-# <p align='center'> Configuring A Basic Network </p>
+# <p align='center'> Static Routing </p>
 ## Topology
 <p align='center'>
 
@@ -153,6 +153,16 @@ Part 3: Configure Web and Email services on the network. <br>
    copy running-config startup-config
    ```
 
+   You will be needed to add clock rate to DCE's serial interace in the router(CSE router). <br>
+   ![dce clk](image/dce.jpg) <br>
+   In this image, a tiny clock is found near at CSE Router by moving the cursor to the connections. Thats why, CSE router will be used to
+   set the clock rate as `64000`. Enter the `Global Configuration Mode` in CSE Router and type:
+   ```bash
+   clock rate 64000
+   ```
+   and save the running configuration.
+
+
 2. For EEE Router:
    ```bash
    enable
@@ -199,7 +209,7 @@ Part 3: Configure Web and Email services on the network. <br>
 1. Try to ping PC1 and PC2 from PC0. You will be able to ping PC1 (as they are in same network) but not in PC2 (as they are in different networks).
    ![Ping before](image/ping_before.jpg)
 
-2. Now, click CSE router and nter in EXEC previlized mode. Then obswerve the routing table of CSE Router:
+2. Now, click CSE router and enter in EXEC previlized mode. Then obswerve the routing table of CSE Router:
    ```bash
    show ip route
    ```

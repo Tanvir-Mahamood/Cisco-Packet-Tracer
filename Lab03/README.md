@@ -93,7 +93,7 @@ necessary to use an Ethernet crossover cable.
    - b. Power on all the devices in the topology. 
 2. **Initialize and reload the router and switch.** <br>
    If configuration files were previously saved on the router and switch, initialize and reload these devices back to their basic configurations.  <br>
-   [Clink here to see the commands to initialize & reload both the devices](/Initialize%20and%20Reload/README.md)
+   [Click here to see the commands to initialize & reload both the devices](/Initialize%20and%20Reload/README.md)
 
 ### Part 2: Configure Devices and Verify Connectivity 
 1. **Configure the switch** <br> 

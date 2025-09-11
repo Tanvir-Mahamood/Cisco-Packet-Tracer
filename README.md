@@ -80,8 +80,9 @@ Download the appropriate version for your operating system (Windows/Linux/macOS)
 | Lab 04 | [8.1.4.7 Packet Tracer - Subnetting Scenario.pka](/Activity%20Files/8.1.4.7%20Packet%20Tracer%20-%20Subnetting%20Scenario.pka) <br> [8.1.4.7 Packet Tracer - Subnetting Scenario 1.pka](/Activity%20Files/8.1.4.7%20Packet%20Tracer%20-%20Subnetting%20Scenario%201.pka) <br> [8.2.1.4 Packet Tracer - Designing and Implementing a VLSM Addressing Scheme.pka](/Activity%20Files/8.2.1.4%20Packet%20Tracer%20-%20Designing%20and%20Implementing%20a%20VLSM%20Addressing%20Scheme.pka) | |
 | Lab 05 | [Configuring Secure Passwords and SSH.pka](/Activity%20Files/Configuring%20Secure%20Passwords%20and%20SSH.pka) <br> [DNS and DHCP.pka](/Activity%20Files/DNS%20and%20DHCP.pka) <br> [FTP.pka](/Activity%20Files/FTP.pka) <br> [Web and Email.pka](/Activity%20Files/Web%20and%20Email.pka) | |
 | [Lab 06](/Lab07/) | Accessing Network Devices with SSH <br> Securing Network Devices | [Click Here](/Lab07/README.md) |
-| [Lab 07](/Lab08/) | Configuring A Basic Network | [Click Here](/Lab08/README.md) |
+| [Lab 07](/Lab08/) | Static Routing | [Click Here](/Lab08/README.md) |
 | Lab 08 | [Configuring Floating Static Routes](/Activity%20Files/2.2.5.5%20Packet%20Tracer%20-%20Configuring%20Floating%20Static%20Routes.pka) <br> [Configuring RIPv2](/Activity%20Files/3.2.1.8%20Packet%20Tracer%20-%20Configuring%20RIPv2.pka) | |
+| [Lab 09](/lab10/) | Configuring Basic EIGRP for IPv4 (Dynamic Routing) | [Click Here](/lab10/README.md) |
 
 
 ## 📝 License
