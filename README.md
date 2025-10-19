@@ -83,6 +83,7 @@ Download the appropriate version for your operating system (Windows/Linux/macOS)
 | [Lab 07](/Lab08/) | Static Routing | [Click Here](/Lab08/README.md) |
 | Lab 08 | [Configuring Floating Static Routes](/Activity%20Files/2.2.5.5%20Packet%20Tracer%20-%20Configuring%20Floating%20Static%20Routes.pka) <br> [Configuring RIPv2](/Activity%20Files/3.2.1.8%20Packet%20Tracer%20-%20Configuring%20RIPv2.pka) | |
 | [Lab 09](/lab10/) | Configuring Basic EIGRP for IPv4 (Dynamic Routing) | [Click Here](/lab10/README.md) |
+| Lab 10| Practice [Test 1](/Practice%20Test/Practice%20Test1.pka) and [Test2](/Practice%20Test/Practice%20Test2.pka) |  |
 
 
 ## 📝 License
